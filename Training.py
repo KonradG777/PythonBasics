@@ -45,3 +45,13 @@ print('cena brutto za kurs JS:')
 print(cenaBruttoJS)
 print('cena brutto za kurs python:')
 print(cenaBruttoPython)
+
+'''Oblicz cenę netto programu wiedząc, że:
+cena brutto programu wynosi 215 zł
+VAT - 19 %'''
+
+abletonBrutto = 215
+vat = 19
+obliczanieProcentu = abletonBrutto * (1 / vat)
+print('Cena ableton netto')
+print(abletonNetto)
