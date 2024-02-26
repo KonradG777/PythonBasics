@@ -52,6 +52,20 @@ VAT - 19 %'''
 
 abletonBrutto = 215
 vat = 19
-obliczanieProcentu = abletonBrutto * (1 / vat)
-print('Cena ableton netto')
+
+obliczonyVat = (1 + vat / 100)
+abletonNetto = abletonBrutto / obliczonyVat
+print('Cena Abletona Netto:')
 print(abletonNetto)
+
+netto = 25
+vat = 20
+kwotabrutto = netto * (vat / 100)
+brutto = kwotabrutto + netto
+print(brutto)
+
+brutto = 100
+vat = 20
+oblicznienetoo = ((100 - vat) / 100)
+kwotanetto = brutto * oblicznienetoo
+print(kwotanetto)
